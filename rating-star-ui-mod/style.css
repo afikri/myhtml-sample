@@ -1,0 +1,39 @@
+
+:root{
+    --martinique:#323357;
+    --mariner:#2A5BDA;
+    --bright-sun:#FCCC4D;
+    --zircon: #F5F8FF;
+    --black:#000000;
+    --white:#ffffff;
+    --mercury:#E5E5E5;
+    --comet: #595B71;
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    padding-top: 3rem;
+    background-color:var(--mercury);
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: var(--white);
+    border-radius: 20px 20px 20px 20px;
+    padding:4rem;
+    text-align: justify;
+
+}
+.card-title{
+    -webkit-text-stroke: 1px var(--black);
+    -webkit-text-fill-color:  var(--martinique);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+

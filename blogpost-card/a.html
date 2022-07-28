@@ -1,0 +1,61 @@
+<style>
+.horizontal-card{
+  position:relative;
+  display: flex;
+  border:1px solid gray;
+  margin-bottom:1rem;
+  img{
+    width: 200px;
+    height: 130px;
+    border-bottom: 30px solid orange;
+
+  }
+  .horizontal-card-body{
+    display: flex;
+    flex-direction: column;
+    margin-left:1rem;
+  }
+  .horizontal-card-footer{
+    position:absolute;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    span{
+      width:200px;
+      display:inline-block;
+    }
+    a{
+      margin-left:10px;
+    }
+  }
+
+}
+
+
+
+</style>
+<div class="container pb-4">
+  <div class="row">
+    <div class="col-lg-3">
+      <div class="horizontal-card">
+
+        <img src="http://via.placeholder.com/200x100" />
+        <div class="horizontal-card-body">
+          <span class="card-text">Date</span>
+          <h4 class="card-title">Title</h4>
+          <span class="card-text">This is a long subititle This is a long subititle This is a long subititle This is a long subititle</span>
+        </div>
+        <div class="horizontal-card-footer">
+          <span>Image Title</span>
+          <a class="card-text status">#View</a>
+          <a class="card-text status">#Save</a>
+
+        </div>
+
+
+      </div>
+    </div>
+
